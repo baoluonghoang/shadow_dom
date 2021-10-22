@@ -1,30 +1,17 @@
-
-header {
-	background-color: #222;
-	border-color: #090909;
-	padding: 20px;
-}
-
-a {
-	text-decoration: none;
-	color: #fff;
-}
-
-.content {
-	padding: 20px;
-}
-
 h1 {
-	color: red;
+	color: green;
 	text-align: center;
 }
 
 p {
-	color: red;
+	color: green;
 }
-textarea {
-	padding: 5px;
+
+.second-shadow {
+	border: 2px solid green;
+	padding: 20px;
 }
+
 img {
 	width: 100px;
 	height: 100px;
@@ -47,13 +34,3 @@ img {
 	justify-content: space-between;
 	align-items: center;
 }
-
-.first-shadow {
-	border: 2px solid red;
-	padding: 10px;
-	margin: 0 auto;
-	width: 70%;
-}
-
-
-

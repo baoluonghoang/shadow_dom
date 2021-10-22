@@ -1,12 +1,12 @@
-import { Component, ElementRef, OnInit, ViewChild, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  selector: 'app-third-shadow',
+  templateUrl: './third-shadow.component.html',
+  styleUrls: ['./third-shadow.component.css'],
   encapsulation: ViewEncapsulation.ShadowDom
 })
-export class AppComponent implements OnInit {
+export class ThirdShadowComponent implements OnInit {
   constructor(
   ){}
 
